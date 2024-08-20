@@ -5205,8 +5205,8 @@
                 "type": "object",
                 "properties": {
                     "productId": {
-                        "type": "integer",
-                        "format": "int32"
+                        "type": "string",
+                        "nullble": true
                     },
                     "supplierId": {
                         "type": "integer",
@@ -5223,7 +5223,7 @@
                         "nullable": true
                     },
                     "unitPrice": {
-                        "type": "number",
+                        "type": "string",
                         "format": "double",
                         "nullable": true
                     },
